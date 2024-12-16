@@ -1,0 +1,102 @@
+.MenuCuerpo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "MenuCarusel MenuCarusel"
+                        "MenuCard1 MenuCard2";
+}
+.MenuCarusel{
+    grid-area: MenuCarusel;
+    padding: 10px;
+}
+.MenuCard1{
+    grid-area:MenuCard1 ;
+    padding: 10px;
+    width: 670px;
+}
+.MenuCard2{
+    grid-area: MenuCard2;
+    padding: 10px;
+    width: 670px;
+}
+.mision{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.pa{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .MenuCuerpo {
+        grid-template-columns: 1fr; /* Sigue siendo una sola columna */
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "MenuCarusel"
+            "MenuCard1"
+            "MenuCard2";
+        gap: 10px;
+        padding: 10px;
+    }
+}
+
+/* -------------PAN TRADICIONAL------------- */
+.cuerpo{
+    background-color: rgb(224, 157, 80);
+    display: grid;
+    grid-template-areas: "cuerpo1 cuerpo2"
+                        "cuerpo3 cuerpo4";
+}
+.cuerpo1{
+    grid-area: cuerpo1;
+    width: 650px;
+    height: auto;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+.cuerpo2{
+    grid-area: cuerpo2;
+    width: 650px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+.cuerpo3{
+    grid-area: cuerpo3;
+    width: 650px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+.cuerpo4{
+    grid-area: cuerpo4;
+    width: 650px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+@media screen and (max-width: 768px) {
+    .cuerpo {
+        grid-template-areas: 
+            "cuerpo1"
+            "cuerpo2"
+            "cuerpo3"
+            "cuerpo4";
+        grid-template-columns: 1fr; 
+        padding: 10px;
+        grid-gap: 5px;
+    }
+}

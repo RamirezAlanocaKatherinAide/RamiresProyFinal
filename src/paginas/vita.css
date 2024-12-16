@@ -1,0 +1,96 @@
+.cuerpo{
+    background-color: rgb(224, 157, 80);
+    display: grid;
+    gap: 10px; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "carpanes carpanes "
+                        "cuerpo1 cuerpo2"
+                        "cuerpo3 cuerpo4"
+                        "cuerpo5 cuerpo6";
+}
+.carpanes {
+    grid-area: carpanes;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    max-width: 100%; 
+    overflow: hidden; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+.cuerpo1{
+    grid-area: cuerpo1;
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+.cuerpo2{
+    grid-area: cuerpo2;
+    width: 100%;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+.cuerpo3{
+    grid-area: cuerpo3;
+    width: 100%;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+.cuerpo4{
+    grid-area: cuerp4;
+    width: 100%;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+.cuerpo5{
+    grid-area: cuerpo5;
+    width: 100%;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+.cuerpo6{
+    grid-area: cuerpo6;
+    width: 100%;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+@media screen and (max-width: 768px) {
+    .cuerpo {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "carpanes"
+            "cuerpo1"
+            "cuerpo2"
+            "cuerpo3"
+            "cuerpo4"
+            "cuerpo5"
+            "cuerpo6";
+    }
+}

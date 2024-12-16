@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.padre{
+    background-color: rgb(224, 157, 80);
+    width: 1350px;
+    height: auto;
+    justify-content: center;    
+    text-align: center;
+    
+}
+.cacecera{
+    width: 1350px;
+    height: 130px;
+}
+.imgg{
+    width: 1350px;
+    height: 130px;
+}
+.cuerpo{
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+}
+.footer{
+    background-color: black;
+    width: 1350px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.pie{
+    padding: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}

@@ -1,0 +1,73 @@
+.cuerpo{
+    background-color: rgb(224, 157, 80);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "carpanes carpanes "
+                        "cuerpo1 cuerpo2"
+                        "cuerpo3 cuerpo4"
+                        "cuerpo5 cuerpo6";
+}
+.carpanes{
+    grid-area: carpanes;
+}
+.cuerpo1{
+    grid-area: cuerpo1;
+    width: 650px;
+    height: auto;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+.cuerpo2{
+    grid-area: cuerpo2;
+    width: 650px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+.cuerpo3{
+    grid-area: cuerpo3;
+    width: 650px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+.cuerpo4{
+    grid-area: cuerpo4;
+    width: 650px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+.cuerpo5{
+    grid-area: cuerpo5;
+    width: 650px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
+.cuerpo6{
+    grid-area: cuerpo6;
+    width: 650px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 180px;
+    margin: 10px;
+    background-color: rgba(185, 90, 13, 0.486);
+}
